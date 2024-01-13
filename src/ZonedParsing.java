@@ -59,15 +59,7 @@ public class ZonedParsing {
         System.out.println(zonedDateTime9);
         System.out.println("====================");
 
-        String dateStr = "2012-10-01T09:45:00.000+02:00";
-        String customFormat = "yyyy-MM-dd HH:mm:ss";
 
-//        DateTimeFormatter dtf = ISODateTimeFormat.dateTime();
-//        LocalDateTime parsedDate = dtf.parseLocalDateTime(dateStr);
-//
-//        String dateWithCustomFormat = parsedDate.toString(DateTimeFormat.forPattern(customFormat));
-//        System.out.println(dateWithCustomFormat);
-        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
         System.out.println(LocalDateTime.now().minusMonths(3).withHour(0).withMinute(0).withSecond(0).withNano(0) );
     }
